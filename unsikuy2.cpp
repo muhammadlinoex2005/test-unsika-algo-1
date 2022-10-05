@@ -17,7 +17,7 @@ int main(){
 	cin >> npmuser;
 
 	if(npmuser != npm){
-		cout << "\nPENYUSUP!\n";
+		cout << "\nPENYUSUP!\n\n";
 	}
 
 	else{
