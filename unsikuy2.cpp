@@ -7,11 +7,6 @@ using namespace std;
 int main(){
 	double npmuser;
 	double npm = 2210631170082;
-	string nama;
-	int umur;
-	string kelas;
-	string hobi; 
-	string citacita;
 
 	cout << "Masukan NPM anda: \n";
 	cin >> npmuser;
