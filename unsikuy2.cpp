@@ -4,9 +4,13 @@ using namespace std;
 
 // npm ardho = 2210631170082
 
+
 int main(){
-	double npmuser;
-	double npm = 2210631170082;
+
+	// Tugas Biodata diri
+
+	long npmuser;
+	long npm = 2210631170082;
 
 	cout << "Masukan NPM anda: \n";
 	cin >> npmuser;
@@ -40,6 +44,29 @@ int main(){
 		}
 		
 	}
+
+
+	// Tugas Buatlah program untuk menukar dua angka dengan menggunakan variabel sementara dan tanpa menggunakan variabel sementara
+
+	// Dengan variabel sementara!
+
+	int a, b;
+
+	cout << "Masukkan a: ";
+	cin >> a;
+	cout << "Masukkan b: ";
+	cin >> b;
+	a = a + b;
+	b = a - b;
+	a = a - b;
+
+	cout << "Nilai a: " << a << endl;;
+
+    // Tanpa variabel sementara
+
+    int c = 1;
+
+    cout << "Nilai c: " << c * 2 << endl;
 
 	return 0;
 
